@@ -2,7 +2,7 @@
 {% load i18n %}
 
 <div class="navbar-fixed">
-  <nav class="white" role="navigation">
+  <nav class="black" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="{% url 'home' %}" class="brand-logo"><img class="center-logo"
                                                                              src="{% static '/img/../../static/img/logo.png' %}"></a>
@@ -22,6 +22,6 @@
     <li><a href="/#future-events">{% trans "Future events" %}</a></li>
     <li><a href="/#who-we-are">{% trans "Who we are" %}</a></li>
     <li><a href="/#past-events">{% trans "Past events" %}</a></li>
-    <li><a href="{% url 'rules' %}">{% trans "Rules" %}</a></li>    
+    <li><a href="{% url 'rules' %}">{% trans "Rules" %}</a></li>
   </ul>
 </div>

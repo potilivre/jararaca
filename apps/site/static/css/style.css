@@ -10,7 +10,7 @@
 
 .container-header{
     height: 70vh;
-    background-image: url(/static/img/meetup.jpg);
+    background-image: url(/static/img/poticon-2018.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,9 +45,9 @@
 
 .center-logo {
     padding: 0px;
-    margin-top: -5px;
-    width: 130px;
-    height: 80px;
+    margin-top: 9px;
+    width: 50px;
+    height: 46px;
 }
 
 .qrcode-size {
@@ -96,11 +96,11 @@
     text-align: center;
 }
 nav a {
-    color: black;
+    color: white;
 }
 
 nav ul a{
-    color: #2d2d2d;
+    color: white;
 }
 
 body{
@@ -109,7 +109,7 @@ body{
 }
 
 ul > li{
-    list-style: square !important;
+    list-style: none !important;
     padding-bottom: 15px;
 }
 .social-network-li {
@@ -123,9 +123,9 @@ ul > li{
 
 @media only screen and (max-width: 992px) {
     .center-logo {
-        width: 130px;
-        height: 80px;
-        margin-top: -12px;
+      width: 48px;
+      height: 44px;
+      margin-top: 7px;
     }
 
     .h1-header {
