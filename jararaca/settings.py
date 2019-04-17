@@ -202,23 +202,23 @@ CORS_URLS_REGEX = r'^/api/.*$'
 
 SENDGRID_TEMPLATES = {
     'CERTIFICATE_EMITTED': {
-        'ID': 'f26688fc-1854-455a-a2c0-bd72d2a38b56',
-        'FROM_EMAIL': 'coordenacao@grupyrn.org',
-        'FROM_NAME': 'GruPy-RN',
-        'CATEGORY': 'certificados_grupy',
+        'ID': '4b72fe98-b0aa-4c87-9674-a068f5c1c2b1',
+        'FROM_EMAIL': 'potilivre@gmail.com',
+        'FROM_NAME': 'PotiLivre',
+        'CATEGORY': 'certificados_potilivre',
         'FILENAME': 'certificado.pdf'
     },
     'CERTIFICATE_NOT_EMITTED': {
-        'ID': '637c0650-3dec-4505-a006-8b9149b3cce4',
-        'FROM_EMAIL': 'coordenacao@grupyrn.org',
-        'FROM_NAME': 'GruPy-RN',
-        'CATEGORY': 'sem_certificados_grupy'
+        'ID': 'b810e4a1-6ac6-4181-9525-baa3cc53e74d',
+        'FROM_EMAIL': 'potilivre@gmail.com',
+        'FROM_NAME': 'PotiLivre',
+        'CATEGORY': 'sem_certificados_potilivre'
     },
     'REGISTRATION': {
-        'ID': '78d0cc02-7d90-4aa4-b214-d842844131c8',
-        'FROM_EMAIL': 'coordenacao@grupyrn.org',
-        'FROM_NAME': 'GruPy-RN',
-        'CATEGORY': 'inscricao_grupy',
-        'FILENAME': 'credencial_grupyrn.png'
+        'ID': '7e8669e0-efbd-4ef6-a3e5-2a2ba601ccb0',
+        'FROM_EMAIL': 'potilivre@gmail.com',
+        'FROM_NAME': 'PotiLivre',
+        'CATEGORY': 'inscricao_potilivre',
+        'FILENAME': 'credencial_potilivre.png'
     }
 }
