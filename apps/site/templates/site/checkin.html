@@ -1,3 +1,4 @@
+{% load static %}
 {% load render_bundle from webpack_loader %}
 {% load staticfiles %}
 {% load i18n %}
@@ -8,6 +9,7 @@
     <meta charset="UTF-8">
     <title>{% trans "Jararaca - PotiLivre Event and Check-in System" %}</title>
     <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon">
+    <link href="{% static 'css/../../static/css/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
     <!-- Webpack rendered CSS -->
     {% render_bundle 'main' 'css' %}
 </head>
