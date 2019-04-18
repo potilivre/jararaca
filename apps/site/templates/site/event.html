@@ -14,7 +14,7 @@
             <p>{{ event.description }}</p>
           </div>
           {% if not event.closed_registration %}
-            <a class="waves-effect waves-light btn yellow darken-2 btn-large" href="{% url 'attendee-registration' event.slug %}">{% trans "Register" %}</a>
+            <a class="waves-effect waves-light btn black btn-large" href="{% url 'attendee-registration' event.slug %}">{% trans "Register" %}</a>
           {% endif %}
 
           {% for day in event.eventday_set.all %}
