@@ -8,9 +8,9 @@ class AttendeeForm(forms.ModelForm):
     cpf = BRCPFField(required=False, help_text=_('Optional. Numbers only. Only if you wish to add this information in '
                                                  'the certificate.'))
     authorize = forms.BooleanField(required=True, label=_('I authorize the use of my data exclusively for my '
-                                                          'identification at this GruPy-RN event.'))
+                                                          'identification at this PotiLivre event.'))
     share_data_with_partners = forms.BooleanField(label=_('I also authorize to share my name and e-mail information '
-                                                          'with GruPy-RN partners.'), required=False)
+                                                          'with PotiLivre partners.'), required=False)
 
     class Meta:
         model = Attendee
