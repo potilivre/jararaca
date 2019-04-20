@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-18 02:08-0300\n"
+"POT-Creation-Date: 2019-04-20 16:17-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,32 +27,29 @@ msgstr ""
 "informação no certificado."
 
 #: apps/site/forms.py:10
-#, fuzzy
-#| msgid ""
-#| "I authorize the use of the data reported solely and exclusively for "
-#| "identification purposes in the GruPy-RN events."
 msgid ""
 "I authorize the use of my data exclusively for my identification at this "
-"GruPy-RN event."
+"PotiLivre event."
 msgstr ""
 "Eu autorizo o uso dos dados acima para propósito de identificação neste  "
-"evento do GruPy-RN."
+"evento do PotiLivre."
 
 #: apps/site/forms.py:12
 msgid ""
-"I also authorize to share my name and e-mail information with GruPy-RN "
+"I also authorize to share my name and e-mail information with PotiLivre "
 "partners."
 msgstr ""
 "Eu também autorizo o compartilhamento do meu nome e e-mail com parceiros do "
-"GruPy-RN"
+"PotiLivre"
 
-#: apps/site/templates/site/checkin.html:9
-#: apps/site/templates/site/footer.html:7
-msgid "Jararaca - GruPy-RN Event and Check-in System"
-msgstr "Jararaca - Sistema de Eventos e Check-in do GruPy-RN"
+#: apps/site/templates/site/checkin.html:10
+#, fuzzy
+#| msgid "Jararaca - GruPy-RN Event and Check-in System"
+msgid "Jararaca - PotiLivre Event and Check-in System"
+msgstr "Jararaca - Sistema de Eventos e Check-in do PotiLivre"
 
 #: apps/site/templates/site/event.html:17
-#: apps/site/templates/site/index.html:27
+#: apps/site/templates/site/index.html:31
 msgid "Register"
 msgstr "Inscreva-se"
 
@@ -61,15 +58,11 @@ msgid "Schedule"
 msgstr "Programação"
 
 #: apps/site/templates/site/event.html:41
-#: apps/site/templates/site/index.html:71
+#: apps/site/templates/site/index.html:94
 msgid "Place"
 msgstr "Local"
 
-#: apps/site/templates/site/footer.html:8
-msgid "From developers to the community."
-msgstr "Dos desenvolvedores para a comunidade."
-
-#: apps/site/templates/site/footer.html:11
+#: apps/site/templates/site/footer.html:13
 msgid "Social networks"
 msgstr "Redes sociais"
 
@@ -88,55 +81,55 @@ msgstr "Corrija o(s) seguinte(s) erro(s):"
 msgid "Future events"
 msgstr "Eventos futuros"
 
-#: apps/site/templates/site/index.html:29
+#: apps/site/templates/site/index.html:33
 msgid "More info"
 msgstr "Mais informações"
 
-#: apps/site/templates/site/index.html:35
+#: apps/site/templates/site/index.html:39
 #, fuzzy
 #| msgid "Coming soon..."
 msgid "Coming soon."
 msgstr "Em breve..."
 
-#: apps/site/templates/site/index.html:36
+#: apps/site/templates/site/index.html:40
 msgid "In the meantime, take a look at the "
 msgstr "Enquanto isso, dê uma olhada nos "
 
-#: apps/site/templates/site/index.html:36
+#: apps/site/templates/site/index.html:40
 msgid "previous events!"
 msgstr "eventos anteriores!"
 
-#: apps/site/templates/site/index.html:48 apps/site/templates/site/menu.html:11
+#: apps/site/templates/site/index.html:52 apps/site/templates/site/menu.html:11
 #: apps/site/templates/site/menu.html:23
 msgid "Who we are"
 msgstr "Quem somos"
 
-#: apps/site/templates/site/index.html:63 apps/site/templates/site/menu.html:12
+#: apps/site/templates/site/index.html:86 apps/site/templates/site/menu.html:12
 #: apps/site/templates/site/menu.html:24
 msgid "Past events"
 msgstr "Eventos anteriores"
 
-#: apps/site/templates/site/index.html:69
+#: apps/site/templates/site/index.html:92
 msgid "Event"
 msgstr "Evento"
 
-#: apps/site/templates/site/index.html:70
+#: apps/site/templates/site/index.html:93
 msgid "Date"
 msgstr "Data"
 
-#: apps/site/templates/site/index.html:72
+#: apps/site/templates/site/index.html:95
 msgid "Content"
 msgstr "Conteúdo"
 
-#: apps/site/templates/site/index.html:85
+#: apps/site/templates/site/index.html:108
 msgid "Open"
 msgstr "Abrir"
 
-#: apps/site/templates/site/index.html:87
+#: apps/site/templates/site/index.html:110
 msgid "Unavailable"
 msgstr "Indisponível"
 
-#: apps/site/templates/site/index.html:96
+#: apps/site/templates/site/index.html:119
 msgid "There are no past events to show."
 msgstr "Não há eventos passados para exibir."
 
@@ -147,6 +140,9 @@ msgstr "Regras"
 #: apps/site/views.py:80 apps/site/views.py:97
 msgid "Registration failed."
 msgstr "Falha no cadastro."
+
+msgid "From developers to the community."
+msgstr "Dos desenvolvedores para a comunidade."
 
 msgid "This field requires at most 11 digits or 14 characters."
 msgstr ""
