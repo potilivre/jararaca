@@ -203,20 +203,20 @@ CORS_URLS_REGEX = r'^/api/.*$'
 SENDGRID_TEMPLATES = {
     'CERTIFICATE_EMITTED': {
         'ID': '4b72fe98-b0aa-4c87-9674-a068f5c1c2b1',
-        'FROM_EMAIL': 'potilivre@gmail.com',
+        'FROM_EMAIL': 'coordenacao@potilivre.org',
         'FROM_NAME': 'PotiLivre',
         'CATEGORY': 'certificados_potilivre',
         'FILENAME': 'certificado.pdf'
     },
     'CERTIFICATE_NOT_EMITTED': {
         'ID': 'b810e4a1-6ac6-4181-9525-baa3cc53e74d',
-        'FROM_EMAIL': 'potilivre@gmail.com',
+        'FROM_EMAIL': 'coordenacao@potilivre.org',
         'FROM_NAME': 'PotiLivre',
         'CATEGORY': 'sem_certificados_potilivre'
     },
     'REGISTRATION': {
         'ID': '7e8669e0-efbd-4ef6-a3e5-2a2ba601ccb0',
-        'FROM_EMAIL': 'potilivre@gmail.com',
+        'FROM_EMAIL': 'coordenacao@potilivre.org',
         'FROM_NAME': 'PotiLivre',
         'CATEGORY': 'inscricao_potilivre',
         'FILENAME': 'credencial_potilivre.png'
